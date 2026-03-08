@@ -31,8 +31,10 @@
               Not supported to play. Please use VR/AR
             </li>
             <li>
-              VR/AR – 
-              !!! Press the trigger before touching the ball to be able to grab it !!!
+              VR/AR – Walking around (roomscale boundary recommended) 
+              <br>Use index trigger to click on buttons
+              <br>Press and maintain the grip trigger BEFORE hitting the ball to grab / Release trigger to throw
+              <br><span style="color: red; font-weight: bold; font-weight: bold;">!!! Press the trigger before touching the ball to be able to grab it !!!</span>
             </li>
           </ul>
         </section>

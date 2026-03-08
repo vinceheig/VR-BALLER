@@ -32,7 +32,7 @@ AFRAME.registerComponent('score', {
                 if (ballY > hoopY && !this.passedNet1) {
                     this.passedNet1 = true;
                     console.log('Passed net 1');
-                    setTimeout(() => { this.passedNet1 = false; }, 500);
+                    setTimeout(() => { this.passedNet1 = false; }, 3000);
                 }
             });
 

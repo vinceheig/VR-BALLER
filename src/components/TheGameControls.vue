@@ -12,7 +12,6 @@ function exitImmersiveView() {
 </script>
 <template>
     <!-- Game reset pannel -->
-        <!-- Start -->
             <a-box
               physx-body="type: static"
               height="1"
@@ -64,6 +63,7 @@ function exitImmersiveView() {
               position="-0.5 0.75 -0.65"
               clickable
               game-start
+              reset-ball
               animation="property: position; to: -0.5 0.75 -0.67; dur: 500; easing: easeInQuad; startEvents: click"
               animation__2="property: position; to: -0.5 0.75 -0.65; dur: 500; delay: 500; easing: easeInQuad; startEvents: click"
               sound="src: url(assets/sounds/misc/button.mp3); on: click; volume: 0.5; positional: true"
