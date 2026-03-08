@@ -3,16 +3,15 @@
 </p>
 <h1 align="center">VR Baller</h1>
 
-> Based on boilerplate for A-Frame, Vue and Vite
+
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![A-Frame](https://img.shields.io/badge/A%E2%80%93Frame-brightgreen?style=for-the-badge&labelColor=%23ef2d5e&color=%23ef2d5e)
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-### [>> DEMO <<](https://onivers.com/aframe-vue-boilerplate/)
+### [>> DEMO <<](https://vr.onivers.com/vincent/)
 
-## Included in the boilerplate
 
 ### Libs and components
 
@@ -22,16 +21,46 @@
 - [aframe-multi-camera](https://github.com/diarmidmackenzie/aframe-multi-camera/) (MIT License)
 - [simple-navmesh-constraint](https://github.com/AdaRoseCannon/aframe-xr-boilerplate) (MIT Licence)
 
-### Movement modes support
+## Tutoriel
 
-- **Desktop** – Keyboard for move (_WASD_ or Arrows keys) + Mouse for look control (Drag and drop)
-- **Mobile** – 1x Finger touch to go forward + 2x Fingers touch to go backward + Gaze cursor for click
-- **VR/AR** – walk + Teleport (Grip for grab and laser for click) + Gaze cursor for click in AR
+### Modes de contrôle
 
-### 3D models
+#### Desktop
+- **Clavier** : WASD ou Flèches directionnelles pour se déplacer
+- **Souris** : Contrôle de la caméra
+- ⚠️ **Non supporté pour jouer. Veuillez utiliser VR/AR**
 
-- **Main room** – [VR Gallery](https://sketchfab.com/3d-models/vr-gallery-1ac32ed62fdf424498acc146fad31f7e) by [Maxim Mavrichev](https://sketchfab.com/mvrc.art) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **3D physic room** – [3d_gallery_for_vr_projects](https://sketchfab.com/3d-models/3d-gallery-for-vr-projects-68f77ed8558c4bd59e0a13e2cc9d1fd1) by [tekuto1s](https://sketchfab.com/tekuto1s) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+#### VR/AR
+- **Déplacement** : Marcher physiquement (roomscale boundary recommandé)
+- **Interaction** : Utilisez la gâchette index pour cliquer sur les boutons
+- **Attraper/Lancer** : 
+  - Appuyez et maintenez la gâchette de grip **AVANT** de toucher le ballon pour l'attraper
+  - Relâchez la gâchette pour lancer
+- 🚨 **IMPORTANT : Appuyez sur la gâchette AVANT de toucher le ballon pour pouvoir le saisir !**
+
+## Licenses et Assets utilisés
+
+### Boilerplate
+
+Basé sur la boilerplate : [a-frame-vite-vue-boilerplate](https://github.com/Chabloz/a-frame-vite-vue-boilerplate)
+
+### Modèles 3D
+
+- **[Water bottle](https://sketchfab.com/3d-models/water-bottle-44e358fef98b47698de7294f111a21df)** par [saqib24](https://sketchfab.com/saqib24) sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **[Wooden bench](https://sketchfab.com/3d-models/wooden-bench-low-poly-f5dbd295c70e448fb6a3c71f370c81a5)** par [MaX3Dd](https://sketchfab.com/MaX3Dd) sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **[Sports bag](https://sketchfab.com/3d-models/sports-bag-4f3da061584a4c51be8cb4a54b7586a2)** par [Zeps3D](https://sketchfab.com/Zeps3D) sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **[Indoor basketball court](https://sketchfab.com/3d-models/indoor-basketball-court-943a9bc962974d02aa34592084687c3c)** par [nguyennghiakk](https://sketchfab.com/nguyennghiakk) sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **[Basketball](https://sketchfab.com/3d-models/basketball-8d17cb0964334a6cbe4b0e293c238956)** par [thesidekick](https://sketchfab.com/thesidekick) sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **[Basketball hoop](https://sketchfab.com/3d-models/basketball-hoop-3f97cfcd94e54d2e9ae5f53e1fd8af12)** par [local.yany](https://sketchfab.com/local.yany) sous licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+### Effets sonores
+
+- **[Rim sound](https://pixabay.com/sound-effects/film-special-effects-basketball-85872/)** par Pixabay sous licence [Pixabay Content License](https://pixabay.com/service/license-summary/)
+- **[Rim sound 1](https://orangefreesounds.com/basketball-hits-rim-sound-effect)** par OrangeFreeSounds - Gratuit pour usage personnel et commercial ([License](https://orangefreesounds.com/license/))
+- **[Net sound (Basketball Swish 4)](https://elevenlabs.io/sound-effects/basketball-swish)** par ElevenLabs sous licence [ElevenLabs Free License](https://elevenlabs.io/terms)
+- **[Basketball bounce (Basketball ball hit)](https://mixkit.co/free-sound-effects/basketball/)** par Mixkit sous licence [Mixkit Sound Effects Free License](https://mixkit.co/license/#sfx)
+- **[Basketball backboard](https://pixabay.com/sound-effects/search/basketball-rim/)** par Pixabay sous licence [Pixabay Content License](https://pixabay.com/service/license-summary/)
+- **[Buzzer sound](https://mixkit.co/free-sound-effects/basketball/)** par Mixkit sous licence [Mixkit Sound Effects Free License](https://mixkit.co/license/#sfx)
 
 ---
 
@@ -42,13 +71,13 @@
 ### Clone (or fork, or download)
 
 ```sh
-git clone https://github.com/Chabloz/a-frame-vite-vue-boilerplate.git .
+git clone https://github.com/vinceheig/VR-BALLER.git .
 ```
 
 ### Install dependencies
 
 ```sh
-npm ci
+npm i
 ```
 
 ### Dev
