@@ -151,7 +151,7 @@ import TheScoreboard from './TheScoreboard.vue';
           depth="0.2"
           obb-collider
           physx-body="type: static; emitCollisionEvents: true;"
-          sound="src: url(assets/sounds/backboard/backboard.mp3); on: obbcollisionstarted; volume: 1; positional: true"
+          sound="src: url(assets/sounds/backboard/backboard1.mp3); on: obbcollisionstarted; volume: 1; positional: true"
           visible="false"
         ></a-box>
 

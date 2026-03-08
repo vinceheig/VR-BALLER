@@ -1,5 +1,6 @@
 <script setup>
   import { ref } from 'vue';
+  import posterImage from '../../public/assets/poster.png'; 
 
   defineProps({
     loaded: Boolean,
@@ -17,7 +18,7 @@
 </script>
 
 <template>
-  <div id="onboarding" v-if="showOnboarding">
+  <div id="onboarding" v-if="showOnboarding" :style="{ backgroundImage: `url(${posterImage})` }">
     <div id="info">
       <h1>VR Baller</h1>
       <p v-if="!loaded">loading...</p>
@@ -183,7 +184,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('assets/poster.png');
     color: #ccc;
     width: 100vw;
     height: 100vh;
@@ -191,6 +191,8 @@
     font-family: monospace;
     z-index: 10000;
     overflow: auto;
+    background-size: cover;
+    background-position: center;
   }
   #onboarding > * {
     margin: 0 auto;
